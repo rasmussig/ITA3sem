@@ -11,7 +11,7 @@ Person[] people = new Person[]
     new Person { Name = "Rosa Jensen", Age = 23, Phone = "+4543217846" },
 };
 
-
+//Sortere personer efter alder
 Func<Person, Person, int> compareAge = (Person1, Person2) =>
 {
     if (Person1.Age < Person2.Age) return -1;
@@ -19,12 +19,41 @@ Func<Person, Person, int> compareAge = (Person1, Person2) =>
     else return 1;
 };
 
-BubbleSort.Sort(people, compareAge);
+//Sortere personer efter navn
+Func<Person, Person, int> compareName = (Person1, Person2) =>
+{
+    return String.Compare(Person1.Name, Person2.Name);
+};
 
+//Sortere personer efter telefonnummer
+Func<Person, Person, int> comparePhone = (Person1, Person2) =>
+{
+    return String.Compare(Person1.Phone, Person2.Phone);
+};
+
+BubbleSort.Sort(people, compareAge);
+Console.WriteLine("Personer sorteret på alder \n");
 foreach (var person in people)
     {
-        Console.WriteLine($"{person.Name}, {person.Age}, {person.Phone}");
+        Console.WriteLine($"{person.Name},\t {person.Age} år,\t Tlf: {person.Phone}");
     }
+
+
+BubbleSort.Sort(people, compareName);
+Console.WriteLine("\nPersoner sorteret på Navn \n");
+foreach (var person in people)
+    {
+        Console.WriteLine($"{person.Name},\t {person.Age} år,\t Tlf: {person.Phone}");
+    }
+
+
+BubbleSort.Sort(people, comparePhone);
+Console.WriteLine("\nPersoner sorteret efter telefonnummer \n");
+foreach (var person in people)
+    {
+        Console.WriteLine($"{person.Name},\t {person.Age} år,\t Tlf: {person.Phone}");
+    }
+
 
 public class Person
 {
