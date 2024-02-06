@@ -1,0 +1,14 @@
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\bin\Debug\net8.0\Opg4.exe
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\bin\Debug\net8.0\Opg4.deps.json
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\bin\Debug\net8.0\Opg4.runtimeconfig.json
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\bin\Debug\net8.0\Opg4.dll
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\bin\Debug\net8.0\Opg4.pdb
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.AssemblyInfoInputs.cache
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.AssemblyInfo.cs
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.dll
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\refint\Opg4.dll
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.pdb
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\Opg4.genruntimeconfig.cache
+C:\Users\rasmu\Desktop\ITA3sem\Modul2_HOF\Opg4\obj\Debug\net8.0\ref\Opg4.dll
