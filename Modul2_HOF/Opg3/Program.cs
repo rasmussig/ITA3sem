@@ -6,7 +6,7 @@ Console.WriteLine(filterBadWords("Sikke en gang shit")); // Udskriver: "Sikke en
 
 var filterWords = CreateWordFilterFn(badWords);
 Console.WriteLine(filterWords("Du er en idiot")); // Udskriver: "Du er en"
-    
+
 
 static Func<string, string> CreateWordFilterFn(string[] words)
 {
