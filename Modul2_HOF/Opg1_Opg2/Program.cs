@@ -28,6 +28,12 @@ var oldestPerson = people.OrderByDescending(person => person.Age).First();
 Console.WriteLine("Den ældeste person er: " + oldestPerson.Name + " Hans alder er: " + oldestPerson.Age);
 
 //Opgave 2_1 - Udskriv person med telefonnummer "+4543215687"
+// var specificNumberPeople = people.Where(p => p.Phone.Equals("+454543215687"));
+// foreach(var person in specificNumberPeople)
+// {
+//     Console.WriteLine($"Name: {person.Name}, Phone: {person.Phone}");
+// }
+
 var personWithThisNumber = people.First(person => person.Phone == "+4543215687");
 Console.WriteLine("Personen med dette telefonnummer er: "+ personWithThisNumber.Name);
 

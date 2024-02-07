@@ -10,10 +10,10 @@ Console.WriteLine(filterWords("Du er en idiot")); // Udskriver: "Du er en"
 
 static Func<string, string> CreateWordFilterFn(string[] words)
 {
-    return (text) =>
+    return (string input) =>
         {
             //Splitter text i indivudelle ord, baseret på mellemrum, og retunere en liste af disse
-            var wordsList = text.Split(' ').ToList();
+            var wordsList = input.Split(' ').ToList();
 
             //Ord der ikke matcher input arrayet, bliver ikke en del af filteredWords-listen
             var filteredWords = wordsList.Where(word => !words.Contains(word)).ToList();
@@ -25,9 +25,9 @@ static Func<string, string> CreateWordFilterFn(string[] words)
 
 static Func<string, string> CreateWordReplacerFn(string[] words, string replacementWord)
 {
-    return text =>
+    return (string input) =>
     {
-        var wordslist = text.Split(' ').ToList();
+        var wordslist = input.Split(' ').ToList();
 
         //IF- Else-statement, der gennemgår ordene i wordslist-listen.
         var replacedWords = wordslist.Select (word =>
