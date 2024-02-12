@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Opg7_Todo_task.props" />
+</Project>
