@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Opg7_Todo_task")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+682170e43439b88aa3cbcb0273b76d673cbee9d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ac88dbc8a57c7d6108cdb5336076986123d3593")]
 [assembly: System.Reflection.AssemblyProductAttribute("Opg7_Todo_task")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Opg7_Todo_task")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
