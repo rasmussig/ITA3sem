@@ -21,6 +21,11 @@ else
         {
             <li>
                 <TodoTask Task=@task></TodoTask>
+                <button @onclick="() => StartEditingTask(task)">Rediger</button>
+                @if (editingTask == task)
+                {
+                    <EditTask Task="@editingTask"></EditTask>
+                }
             </li>
         }
     </ol>
@@ -30,12 +35,20 @@ else
 
 @code {
     private TaskData[]? tasks;
+    // Variabel som indeholder den opdaterede task
+    private TaskData? editingTask;
+
 
     protected override async Task OnInitializedAsync()
     {
         tasks = await todoService.GetTaskData();
         todoService.RefreshRequired += this.RefreshMe;
     }  
+
+     private void StartEditingTask(TaskData task)
+    {
+        editingTask = task;
+    }
     
     private async void RefreshMe()
     {

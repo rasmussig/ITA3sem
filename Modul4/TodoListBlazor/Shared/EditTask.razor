@@ -1,0 +1,16 @@
+@using TodoListBlazor.Data
+@inject TodoListService todoService
+
+<input type="text" @bind-value="task.Text" />
+<button @onclick="SaveTask">Gem ændring</button>
+
+@code {
+    [Parameter]
+    public TaskData task { get; set; }
+
+    private async Task SaveTask()
+    {
+        //Kalder PutTaskData, med den opdaterede task som input
+        await todoService.PutTaskData(task); 
+    }
+}

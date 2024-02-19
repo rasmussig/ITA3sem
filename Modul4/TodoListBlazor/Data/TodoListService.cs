@@ -29,7 +29,8 @@ public class TodoListService
         return await http.GetFromJsonAsync<TaskData[]>(url);
     }
 
-    public async void PutTaskData(TaskData data)
+    // Ændret til at retunere en Task fremfor Void, så vi kan bruge await
+    public async Task PutTaskData(TaskData data)
     {
         TaskDataAPI newData = new TaskDataAPI(data.Text, data.Done);
         string url = $"{baseAPI}tasks/{data.Id}";
