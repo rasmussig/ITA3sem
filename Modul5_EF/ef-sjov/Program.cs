@@ -14,15 +14,15 @@ using (var db = new TaskContext())
 
     
     // Create task
-    Console.WriteLine("Indsæt et nyt task");
-    db.Add(new TodoTask("En opgave der skal løses", "Personlig", false, lastUser));
-    db.SaveChanges();
+    // Console.WriteLine("Indsæt et nyt task");
+    // db.Add(new TodoTask("En opgave der skal løses", "Personlig", false, lastUser));
+    // db.SaveChanges();
 
 
     // Create User
-    // Console.WriteLine("Opretter ny bruger");
-    // db.Add(new User("Søren", 43));
-    // db.SaveChanges();
+    Console.WriteLine("Opretter ny bruger");
+    db.Add(new User("Søren", 43));
+    db.SaveChanges();
 
 
     // Update Task (Bind user til en task/ændre UserId for en task)
@@ -30,8 +30,8 @@ using (var db = new TaskContext())
     
     var taskToUpdate = db.Tasks.Where(Task => Task.TodoTaskId == 2).FirstOrDefault();
     Console.WriteLine($"UserId bundet til tasken før update {taskToUpdate.UserId}");
-    var userToConnectToTask = db.Users.Where(User => User.UserId == 1).FirstOrDefault();
-    taskToUpdate.UserId = userToConnectToTask.UserId;
+    var userToConnectToTask = db.Users.Where(User => User.UserId == 4).FirstOrDefault();
+    taskToUpdate.User = userToConnectToTask;
     db.SaveChanges();
     Console.WriteLine($"UserId bundet til tasken efter update {taskToUpdate.UserId}");
 
