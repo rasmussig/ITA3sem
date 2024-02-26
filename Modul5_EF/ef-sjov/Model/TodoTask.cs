@@ -21,7 +21,6 @@ namespace Model
         public string? Text { get; set; }
         public string? Category { get; set; }
         public bool Done { get; set; }
-        public long? UserId {get ; set;}
         public User? User {get; set;}
 
     }

@@ -26,14 +26,14 @@ using (var db = new TaskContext())
 
 
     // Update Task (Bind user til en task/ændre UserId for en task)
-    // Console.WriteLine("Ændre UserId for en task");
+    Console.WriteLine("Ændre UserId for en task");
     
-    // var taskToUpdate = db.Tasks.Where(Task => Task.TodoTaskId == 2).FirstOrDefault();
-    // Console.WriteLine($"UserId bundet til tasken før update {taskToUpdate.UserId}");
-    // var userToConnectToTask = db.Users.Where(User => User.UserId == 1).FirstOrDefault();
-    // taskToUpdate.UserId = userToConnectToTask.UserId;
-    // db.SaveChanges();
-    // Console.WriteLine($"UserId bundet til tasken efter update {taskToUpdate.UserId}");
+    var taskToUpdate = db.Tasks.Where(Task => Task.TodoTaskId == 2).FirstOrDefault();
+    Console.WriteLine($"UserId bundet til tasken før update {taskToUpdate.UserId}");
+    var userToConnectToTask = db.Users.Where(User => User.UserId == 1).FirstOrDefault();
+    taskToUpdate.UserId = userToConnectToTask.UserId;
+    db.SaveChanges();
+    Console.WriteLine($"UserId bundet til tasken efter update {taskToUpdate.UserId}");
 
 
     // Read Task
