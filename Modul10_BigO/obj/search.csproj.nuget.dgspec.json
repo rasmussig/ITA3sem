@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul5_EF\\ef-sjov\\ef-sjov.csproj": {}
+    "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul10_BigO\\search.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul5_EF\\ef-sjov\\ef-sjov.csproj": {
+    "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul10_BigO\\search.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul5_EF\\ef-sjov\\ef-sjov.csproj",
-        "projectName": "ef-sjov",
-        "projectPath": "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul5_EF\\ef-sjov\\ef-sjov.csproj",
+        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul10_BigO\\search.csproj",
+        "projectName": "search",
+        "projectPath": "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul10_BigO\\search.csproj",
         "packagesPath": "C:\\Users\\rasmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul5_EF\\ef-sjov\\obj\\",
+        "outputPath": "C:\\Users\\rasmu\\Desktop\\SoftwareArkitektur\\ITA3sem\\Modul10_BigO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -34,25 +34,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[2.2.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[2.2.8, )"
             },
-            "Microsoft.EntityFrameworkCore.SQLite": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -71,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
