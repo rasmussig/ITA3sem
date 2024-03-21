@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ef-sjov")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93dee54e42aa7c25ab3734576ad876087743efc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+012a7b42f41d69e5c387c903e9cd48d3df319248")]
 [assembly: System.Reflection.AssemblyProductAttribute("ef-sjov")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ef-sjov")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
