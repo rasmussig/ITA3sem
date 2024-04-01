@@ -30,17 +30,17 @@ namespace SearchMethods
         public static int FindNumberBinary(int[] array, int tal) {
             // TODO: Implement!
             int min = 0; 
-            int max = array.Length - 1;
+            int max = array.Length - 1; 
 
-            while (min < max) {
-                int mid = (min + max) / 2;
-                if (tal == array[mid]) {
+            while (min <= max) { // while loopet kører så længe min er mindre end eller lig med max
+                int mid = (min + max) / 2; // midten af arrayet
+                if (tal == array[mid]) { 
                     return mid;
                 }
-                else if (tal < array[mid]){
-                    return max = mid - 1;
+                else if (tal < array[mid]){ 
+                    max = mid - 1;
                 }
-                else {
+                else { 
                     min = mid + 1;
                 }
             }
