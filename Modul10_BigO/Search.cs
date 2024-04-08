@@ -70,6 +70,22 @@ namespace SearchMethods
         /// <returns>En kopi af det sorterede array med det nye tal i.</returns>
         public static int[] InsertSorted(int tal) {
             // TODO: Implement!
+
+            if(next == sortedArray.Length) // 
+            {
+                return sortedArray;
+            }
+
+            int i;
+            for (i = sortedArray.Length - 2; (i >= 0 && (sortedArray[i] > tal || sortedArray[i] == -1)); i--)
+            {
+                Console.WriteLine(i);
+                sortedArray[i+1] = sortedArray[i];
+            }
+
+            sortedArray[i+1] = tal;
+
+            next ++;
             
             return sortedArray;
         }
