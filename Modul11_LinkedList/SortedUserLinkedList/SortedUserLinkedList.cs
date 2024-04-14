@@ -100,6 +100,9 @@
             // Startværdi: node = first;
             // Betingelse: node != null;
             // Iteration: node = node.Next
+            // Kan også bruge Node CurrentNode = first;
+            // while(currentNode.Next != null) {current = current.Next}
+            // return current.Data
             {
                 if (node.Next == null)
                 {
