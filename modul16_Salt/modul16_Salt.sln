@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashedPassword", "password-hashing\HashedPassword.csproj", "{EE998B4E-EA1F-4CA7-AACB-B425BAB3D069}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "secure-api", "unsecure-api\secure-api.csproj", "{265970F4-CBF8-4A47-ABBA-9470999FB699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE998B4E-EA1F-4CA7-AACB-B425BAB3D069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE998B4E-EA1F-4CA7-AACB-B425BAB3D069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE998B4E-EA1F-4CA7-AACB-B425BAB3D069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE998B4E-EA1F-4CA7-AACB-B425BAB3D069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265970F4-CBF8-4A47-ABBA-9470999FB699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265970F4-CBF8-4A47-ABBA-9470999FB699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265970F4-CBF8-4A47-ABBA-9470999FB699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265970F4-CBF8-4A47-ABBA-9470999FB699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {548E6CEE-7922-4CA9-90AE-8F738B1A16CF}
+	EndGlobalSection
+EndGlobal
