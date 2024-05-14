@@ -17,6 +17,7 @@ String[] frugter = new String[]
     "æble", "banan", "pære", "ananas"
 };
 
+
 //Endpoint der retunere fugtarray
 app.MapGet("/api/frugter", () => frugter );
 
