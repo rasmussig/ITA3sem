@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "VUbQXs5SSJCAsATScmvoLO4Vvz1l7m6QKZb4OA7SB5yVdpeNVNmwe03iwq1nuvkK7qC7u2YvCzTZZ1SMpl5z/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rasmu\\OneDrive\\Skrivebord\\3Semester\\SoftwareArkitektur\\ITA3sem\\modul16_Salt\\password-hashing\\HashedPassword.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.10\\microsoft.aspnetcore.cryptography.keyderivation.6.0.10.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
