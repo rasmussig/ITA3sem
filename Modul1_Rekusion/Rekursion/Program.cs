@@ -5,7 +5,7 @@ using System.Formats.Asn1;
 
 Console.WriteLine(Opgave0.areal(3)); // Output skal være 6
 Console.WriteLine(Opgave3.Faculty(5)); // Output skal være '120'.
-Console.WriteLine(Opgave4_1.sfd(12, 18)); // Output skal være '6'.
+Console.WriteLine(Opgave4_1.EculidsSFD(12, 18)); // Output skal være '6'.
 Console.WriteLine(Opgave4_2.potens(5, 5)); // Output skal være '3125'.
 Console.WriteLine(Opgave4_3.ingenGange(6, 6)); // Output skal være '36'.
 Console.WriteLine(Opgave4_4.reverseString("ABCDEF")); // Output skal være '36'.
@@ -39,23 +39,18 @@ class Opgave3 {
         }
         return resultat;
     }
+}
 
 //Opg 4_1: Største Fælles Divisor
 class Opgave4_1
 {
-    public static int sfd(int a, int b)
-    {
-        if (b <= a && a % b == 0)
-        {
+  public static int EculidsSFD(int a, int b) {
+        if (b <= a && a % b == 0) {
             return b;
-        }
-        else
-        {
-            if (a < b)
-            {
-                return sfd(b, a);
-            }
-            return sfd(b, a % b);
+        } else if(b > a) {
+            return EculidsSFD (b, a); 
+        } else {
+            return EculidsSFD(b, a % b);
         }
     }
 }
