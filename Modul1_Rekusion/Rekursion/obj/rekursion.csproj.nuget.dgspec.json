@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rasmu\\Desktop\\ITA3sem\\Modul1_Rekusion\\rekursion\\rekursion.csproj": {}
+    "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul1_Rekusion\\Rekursion\\rekursion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rasmu\\Desktop\\ITA3sem\\Modul1_Rekusion\\rekursion\\rekursion.csproj": {
+    "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul1_Rekusion\\Rekursion\\rekursion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\ITA3sem\\Modul1_Rekusion\\rekursion\\rekursion.csproj",
+        "projectUniqueName": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul1_Rekusion\\Rekursion\\rekursion.csproj",
         "projectName": "rekursion",
-        "projectPath": "C:\\Users\\rasmu\\Desktop\\ITA3sem\\Modul1_Rekusion\\rekursion\\rekursion.csproj",
-        "packagesPath": "C:\\Users\\rasmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rasmu\\Desktop\\ITA3sem\\Modul1_Rekusion\\rekursion\\obj\\",
+        "projectPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul1_Rekusion\\Rekursion\\rekursion.csproj",
+        "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul1_Rekusion\\Rekursion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

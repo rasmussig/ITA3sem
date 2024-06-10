@@ -38,11 +38,14 @@ app.MapGet("api/kunder/{id}", (int id) =>
     // Lambda-funktionen her iterer igennem vores array af kunder, inputparameteren(kunde) og vores betingelse (k.Id == id)
     var kunde = kunder.FirstOrDefault(kunde => kunde.Id == id);
 
+    
     if (kunde != null)
     {
         return Results.Ok(kunde);
     }
     return Results.NotFound("Ingen kunde med dette Id");
+    // Kan også skrives som
+    // return kunde is not null ? return Results.OK(kunde) : Results.NotFound("Ingen kunde med dette Id")
 });
 
 app.MapPost("api/kunder", (Kunde KundeInput) =>

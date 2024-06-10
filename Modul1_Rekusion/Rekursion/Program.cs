@@ -3,6 +3,7 @@
 
 using System.Formats.Asn1;
 
+Console.WriteLine(Opgave0.areal(3)); // Output skal være 6
 Console.WriteLine(Opgave3.Faculty(5)); // Output skal være '120'.
 Console.WriteLine(Opgave4_1.sfd(12, 18)); // Output skal være '6'.
 Console.WriteLine(Opgave4_2.potens(5, 5)); // Output skal være '3125'.
@@ -10,6 +11,19 @@ Console.WriteLine(Opgave4_3.ingenGange(6, 6)); // Output skal være '36'.
 Console.WriteLine(Opgave4_4.reverseString("ABCDEF")); // Output skal være '36'.
 Opgave5.ScanDir("C:\\Users\\Rasmu\\.templateengine");
 
+// Opgave 0 - Trekants figurer har en rekursiv struktur
+class Opgave0 {
+public static int areal (int bredde) {
+    int resultat;
+
+    if (bredde == 1) {
+        resultat = 1;
+    } else {
+        resultat = bredde + areal(bredde - 1);
+    }
+    return resultat;
+}
+}
 
 //Opg 3: Beregn fakultet
 // Termineringsregel: 0! = 1
