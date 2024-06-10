@@ -1,0 +1,15 @@
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.AssemblyInfoInputs.cache
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.AssemblyInfo.cs
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.sourcelink.json
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\bin\Debug\net8.0\TrekantsFigur.exe
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\bin\Debug\net8.0\TrekantsFigur.deps.json
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\bin\Debug\net8.0\TrekantsFigur.runtimeconfig.json
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\bin\Debug\net8.0\TrekantsFigur.dll
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\bin\Debug\net8.0\TrekantsFigur.pdb
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.dll
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\refint\TrekantsFigur.dll
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.pdb
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\TrekantsFigur.genruntimeconfig.cache
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul1\TrekantsFigur\obj\Debug\net8.0\ref\TrekantsFigur.dll
