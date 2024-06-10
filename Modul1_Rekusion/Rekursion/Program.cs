@@ -28,20 +28,17 @@ public static int areal (int bredde) {
 //Opg 3: Beregn fakultet
 // Termineringsregel: 0! = 1
 // Rekurrensregel: n! = n * (n - 1)! hvor n > 0.
-class Opgave3
-{
-    public static int Faculty(int n)
-    {
-        if (n == 1)
-        {
-            return 1;
+class Opgave3 {
+    public static int Faculty(int n) {
+        int resultat;
+
+        if (n == 0) { // Termineringsregel: 0! = 1
+            resultat = 1;
+        } else {
+            resultat = n * Faculty(n - 1); // Rekurrensregel: n! = n * (n - 1)!
         }
-        else
-        {
-            return n * Faculty(n - 1);
-        }
+        return resultat;
     }
-}
 
 //Opg 4_1: Største Fælles Divisor
 class Opgave4_1
