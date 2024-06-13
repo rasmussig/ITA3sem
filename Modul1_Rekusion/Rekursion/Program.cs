@@ -9,7 +9,9 @@ Console.WriteLine(Opgave4_1.EculidsSFD(12, 18)); // Output skal være '6'.
 Console.WriteLine(Opgave4_2.potens(5, 5)); // Output skal være '3125'.
 Console.WriteLine(Opgave4_3.ingenGange(6, 6)); // Output skal være '36'.
 Console.WriteLine(Opgave4_4.reverseString("ABCDEF")); // Output skal være '36'.
+Console.WriteLine(Opgave6.Fibonacci(7)); // Output skal være '13'.
 Opgave5.ScanDir("C:\\Users\\Rasmu\\.templateengine");
+
 
 // Opgave 0 - Trekants figurer har en rekursiv struktur
 class Opgave0 {
@@ -135,3 +137,20 @@ class Opgave5
         }
     }
 }
+
+/*Fibonacci-sekvens med rekursion
+Skriv en rekursiv metode til at generere det n'te tal i Fibonacci-sekvensen. 
+Fibonacci-sekvensen starter med 0 og 1, og hvert efterfølgende tal er summen af de to foregående tal.
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 osv.
+*/
+class Opgave6
+    {
+        public static int Fibonacci(int n)
+        {
+            if (n <= 1) // Termineringsregel
+                return n;
+            else // Rekurrensregel
+                return Fibonacci(n - 1) + Fibonacci(n - 2);
+        }
+    }
+

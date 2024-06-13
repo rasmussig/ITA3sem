@@ -59,3 +59,4 @@ class Opgave4_2 {
     }
 }
 
+// To tal ganger med hinanden uden at bruge gange

@@ -1,0 +1,15 @@
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.AssemblyInfoInputs.cache
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.AssemblyInfo.cs
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.sourcelink.json
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\bin\Debug\net8.0\Modul2.exe
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\bin\Debug\net8.0\Modul2.deps.json
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\bin\Debug\net8.0\Modul2.runtimeconfig.json
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\bin\Debug\net8.0\Modul2.dll
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\bin\Debug\net8.0\Modul2.pdb
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.dll
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\refint\Modul2.dll
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.pdb
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\Modul2.genruntimeconfig.cache
+C:\Users\Rasmus\Desktop\ITA3sem\RerunModuler\Modul2\obj\Debug\net8.0\ref\Modul2.dll
