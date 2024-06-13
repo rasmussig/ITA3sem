@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ_ChatOPG\\Opg1_Opg2.csproj",
-      "projectName": "Opg1_Opg2",
-      "projectPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ_ChatOPG\\Opg1_Opg2.csproj",
+      "projectUniqueName": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ_ChatOPG\\Opg1_Opg2_LINQ_ChatOPG.csproj",
+      "projectName": "Opg1_Opg2_LINQ_ChatOPG",
+      "projectPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ_ChatOPG\\Opg1_Opg2_LINQ_ChatOPG.csproj",
       "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ_ChatOPG\\obj\\",
       "projectStyle": "PackageReference",

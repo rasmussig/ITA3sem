@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ\\Opg1_Opg2_LINQ.csproj",
-      "projectName": "Opg1_Opg2_LINQ",
-      "projectPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ\\Opg1_Opg2_LINQ.csproj",
+      "projectUniqueName": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg5_HOF\\Opg5_HOF.csproj",
+      "projectName": "Opg5_HOF",
+      "projectPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg5_HOF\\Opg5_HOF.csproj",
       "packagesPath": "C:\\Users\\Rasmus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg1_Opg2_LINQ\\obj\\",
+      "outputPath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul2_LINQ_HOF\\Opg5_HOF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rasmus\\AppData\\Roaming\\NuGet\\NuGet.Config"

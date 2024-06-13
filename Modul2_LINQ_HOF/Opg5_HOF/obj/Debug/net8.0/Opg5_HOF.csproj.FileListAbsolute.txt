@@ -1,0 +1,15 @@
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\bin\Debug\net8.0\Opg5_HOF.exe
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\bin\Debug\net8.0\Opg5_HOF.deps.json
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\bin\Debug\net8.0\Opg5_HOF.runtimeconfig.json
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\bin\Debug\net8.0\Opg5_HOF.dll
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\bin\Debug\net8.0\Opg5_HOF.pdb
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.AssemblyInfoInputs.cache
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.AssemblyInfo.cs
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.csproj.CoreCompileInputs.cache
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.sourcelink.json
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.dll
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\refint\Opg5_HOF.dll
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.pdb
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\Opg5_HOF.genruntimeconfig.cache
+C:\Users\Rasmus\Desktop\ITA3sem\Modul2_LINQ_HOF\Opg5_HOF\obj\Debug\net8.0\ref\Opg5_HOF.dll
