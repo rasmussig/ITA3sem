@@ -171,7 +171,9 @@ app.MapPost("/api/quizzer/{id}/spørgsmål", (int id, NewQuestion newQuestion) =
 
     var question = new Question
     {
-        Text = newQuestion.Text
+        Id = quiz.Questions.Max(q => q.Id) + 1,
+        Text = newQuestion.Text,
+        Answers = new List<Answer>()
     };
 
     quiz.Questions.Add(question);
