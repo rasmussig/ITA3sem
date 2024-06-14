@@ -22,6 +22,14 @@ Console.WriteLine("Så mange personer starter med J: " + personsStartingWithJ);
 
 //1.3 Find den yngste person.
 var youngestPerson = people.OrderBy(person => person.Age).First();
+// var youngestAge = people.Min(person => person.Age);
+// var youngestPerson = people.Where(person => person.Age == youngestAge);
+// foreach (var person in youngestPerson) 
+// {
+//     Console.WriteLine($"{person.Name} alder: {person.Age}");
+// }
+
+
 Console.WriteLine("Den yngeste person er: " + youngestPerson.Name + " Alder: " + youngestPerson.Age);
 
 //2.1 Find og udskriv alle personer, hvis navn indeholder "sen".

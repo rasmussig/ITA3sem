@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Opg3_FilterOrd_HOF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d143c09fd6d328ffa9437e7441db29947ec02fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+412cc518c38162c62f59faa61f4f83c3e610e4f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Opg3_FilterOrd_HOF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Opg3_FilterOrd_HOF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
