@@ -111,6 +111,39 @@ app.MapGet("/api/quizzer/{id}", (int id) =>
     return Results.NotFound("No quiz with this ID");
 });
 
+// GET /api/quizzer/{id}/spørgsmål: Henter alle spørgsmål for en bestemt quiz.
+app.MapGet("/api/quizzer/{id}/spørgsmål", (int id) =>
+{
+    var quiz = quizzes.FirstOrDefault(q => q.Id == id);
+
+    if (quiz != null)
+    {
+        return Results.Ok(quiz.Questions);
+    }
+
+    return Results.NotFound("No quiz with this ID");
+});
+
+// GET /api/quizzer/{id}/spørgsmål/{spørgsmålId}/svarmuligheder: Henter alle svarmuligheder for et bestemt spørgsmål.
+app.MapGet("/api/quizzer/{id}/spørgsmål/{spørgsmålId}/svarmuligheder", (int id, int spørgsmålId) =>
+{
+    var quiz = quizzes.FirstOrDefault(q => q.Id == id);
+
+    if (quiz == null)
+    {
+        return Results.NotFound("No quiz with this ID");
+    }
+
+    var question = quiz.Questions.FirstOrDefault(q => q.Id == spørgsmålId);
+
+    if (question == null)
+    {
+        return Results.NotFound("No question with this ID");
+    }
+
+    return Results.Ok(question.Answers);
+});
+
 // POST /api/quizzer: Tager imod en ny quiz, der skal oprettes.
 app.MapPost("/api/quizzer", (NewQuiz newQuiz) =>
 {
@@ -124,6 +157,85 @@ app.MapPost("/api/quizzer", (NewQuiz newQuiz) =>
     quizzes.Add(quiz);
 
     return Results.Created($"/api/quizzer/{quiz.Id}", quiz);
+});
+
+// Post - tilføj spørgsmål til quiz
+app.MapPost("/api/quizzer/{id}/spørgsmål", (int id, NewQuestion newQuestion) =>
+{
+    var quiz = quizzes.FirstOrDefault(q => q.Id == id);
+
+    if (quiz == null)
+    {
+        return Results.NotFound("No quiz with this ID");
+    }
+
+    var question = new Question
+    {
+        Text = newQuestion.Text
+    };
+
+    quiz.Questions.Add(question);
+
+    return Results.Created($"/api/quizzer/{id}/spørgsmål", question);
+});
+
+// Post- tilføj svarmuligheder til spørgsmål
+app.MapPost("/api/quizzer/{id}/spørgsmål/{spørgsmålId}/svarmuligheder", (int id, int spørgsmålId, NewAnswer newAnswer) =>
+{
+    var quiz = quizzes.FirstOrDefault(q => q.Id == id);
+
+    if (quiz == null)
+    {
+        return Results.NotFound("No quiz with this ID");
+    }
+
+    var question = quiz.Questions.FirstOrDefault(q => q.Id == spørgsmålId);
+
+    if (question == null)
+    {
+        return Results.NotFound("No question with this ID");
+    }
+
+    var answer = new Answer
+    {
+        Text = newAnswer.Text,
+        IsCorrect = newAnswer.IsCorrect
+    };
+
+    question.Answers.Add(answer);
+
+    return Results.Created($"/api/quizzer/{id}/spørgsmål/{spørgsmålId}/svarmuligheder", answer);
+});
+
+// PUT /api/quizzer/{id}: Opdaterer en eksisterende quiz.
+app.MapPut("/api/quizzer/{id}", (int id, Quiz quiz) =>
+{
+    var existingQuiz = quizzes.FirstOrDefault(q => q.Id == id);
+
+    if (existingQuiz == null)
+    {
+        return Results.NotFound("No quiz with this ID");
+    }
+
+    existingQuiz.Titel = quiz.Titel;
+    existingQuiz.Beskrivelse = quiz.Beskrivelse;
+
+    return Results.Ok(existingQuiz);
+});
+
+// DELETE /api/quizzer/{id}: Sletter en bestemt quiz.
+app.MapDelete("/api/quizzer/{id}", (int id) =>
+{
+    var quiz = quizzes.FirstOrDefault(q => q.Id == id);
+
+    if (quiz == null)
+    {
+        return Results.NotFound("No quiz with this ID");
+    }
+
+    quizzes.Remove(quiz);
+
+    return Results.NoContent();
 });
 
 app.Run();
@@ -146,6 +258,7 @@ public class Quiz
 
 public class Question
 {
+    public int Id { get; set;}
     public string Text { get; set; }
     public List<Answer> Answers { get; set; } = new List<Answer>();
 }
