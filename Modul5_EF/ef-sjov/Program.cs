@@ -1,5 +1,12 @@
 ﻿using System.Data;
 using Model;
+// RERUN MODUL BEDRE!!!
+// RERUN MODUL BEDRE!!!
+// RERUN MODUL BEDRE!!!
+// RERUN MODUL BEDRE!!!
+
+//TIPS OG TRICKS I BUNDEN
+// https://eaaa.instructure.com/courses/19516/pages/opgaver-5?module_item_id=653564
 
 using (var db = new TaskContext())
 {
