@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tzgAS37MnpUGGiAdMhPI2z6t714gJRiKKwQF9zK4liE6RzqW7UNhQpdg0r9PuUoUoBLIouYsFPaRqDHw7p1/xg==",
+  "dgSpecHash": "u5T/CatZx3tGkBtNUG+/7NG0Ss4pZmfk/jJF9qJ2osNsU8/pVN9XQRtODL9loyVPbu23BJ73aUgMVqPp2Juw9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rasmus\\Desktop\\ITA3sem\\Modul12_Sortering\\sortering.csproj",
   "expectedPackageFiles": [
@@ -91,11 +91,7 @@
     "C:\\Users\\Rasmus\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Rasmus\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Rasmus\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Rasmus\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\Rasmus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+    "C:\\Users\\Rasmus\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -15,6 +15,8 @@ public class BubbleSort
         for (int i = 0; i < array.Length; i++)
         {
             // Loop through all elements in the array except the last i elements
+            // Efter hver iteration af det ydre loop er det største tal blevet flyttet til den rigtige plads
+            // Derfor behøver vi ikke at tjekke de sidste i elementer
             for (int j = 0; j < array.Length - i - 1; j++)
             {
                 // If the current element is greater than the next element, swap them
