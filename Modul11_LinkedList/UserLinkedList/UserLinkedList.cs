@@ -117,9 +117,10 @@
         { 
             for (Node node = first; node != null; node = node.Next) 
             {
-                Console.WriteLine(node.Data.Name); // --logger "console;verbosity=detailed" 
+                // Console.WriteLine(node.Data.Name); // --logger "console;verbosity=detailed" 
                 if (node.Data.Name == user.Name) 
                 {
+                    Console.WriteLine($"Brugeren {user.Name} findes i listen: ");
                     return true;
                 }
             }

@@ -22,3 +22,6 @@ list.RemoveFirst();
 
 Console.WriteLine(list.CountUsers());
 Console.WriteLine(list);
+
+// Tjekker om vores liste indeholder en bestemt bruger
+Console.WriteLine(list.Contains(torill));
