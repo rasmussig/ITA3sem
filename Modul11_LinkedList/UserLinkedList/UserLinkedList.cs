@@ -22,6 +22,28 @@
             first = node;
         }
 
+        // AddLast
+        public void AddLast(User user)
+        {
+            Node node = new Node(user, null);
+            if (first == null)
+            {
+                first = node;
+            }
+            else
+            {
+                // Sætte en variabel til at holde den sidste node
+                Node last = first;
+                // Gå igennem listen indtil vi finder den sidste node
+                while (last.Next != null)
+                {
+                    last = last.Next;
+                }
+                // Sæt den sidste nodes Next til den nye node
+                last.Next = node;
+            }
+        }
+
         public User RemoveFirst()
         {
             // TODO: Implement!
@@ -64,6 +86,39 @@
                     previous = node;
                     node = node.Next;
                 }
+            }
+        }
+
+        //RemoveLast
+        public User RemoveLast()
+        {
+            if (first == null) // Hvis listen er tom
+            {
+                return null;
+            }
+
+            else if (first.Next == null) // Hvis der kun er en node i listen
+            {
+                Node node = first;
+                first = null;
+                return node.Data;
+            }
+
+            else
+            {
+                Node node = first;
+                Node previous = null;
+
+                // Gå igennem listen indtil vi finder den sidste node
+                while (node.Next != null)
+                {
+                    previous = node;
+                    node = node.Next;
+                }
+                
+                // Sæt den næstsidste node.Next til null, for at fjerne den sidste node
+                previous.Next = null;
+                return node.Data;
             }
         }
 
@@ -127,5 +182,53 @@
 
             return false;
         }
+
+        //Average age
+        // public double AverageAge()
+        // {
+        //     double sum = 0;
+        //     int count = 0;
+
+        //     for (Node node = first; node != null; node = node.Next)
+        //     {
+        //         sum += node.Data.Age;
+        //         count++;
+        //     }
+
+        //     return sum / count;
+        // }
+
+        // // CountUsers, men hvor mange som er en bestemt alder
+        // public int CountUsers(int age) 
+        // {
+        //     int count = 0;
+
+        //     for (Node node = first; node != null; node = node.Next)
+        //     {
+        //         if (node.Data.Age == age)
+        //         {
+        //             count++;
+        //         }
+        //     }
+
+        //     return count;
+        // }
+
+        // // CountUsers, men hvor mange som er over en bestemt alder
+        // public int CountUsersOver(int age) 
+        // {
+        //     int count = 0;
+
+        //     for (Node node = first; node != null; node = node.Next)
+        //     {
+        //         if (node.Data.Age > age)
+        //         {
+        //             count++;
+        //         }
+        //     }
+
+        //     return count;
+        // }
+        
     }
 }
