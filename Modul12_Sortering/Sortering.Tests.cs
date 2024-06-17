@@ -44,5 +44,14 @@ namespace Sortering.Tests
             MergeSort.Sort(array);
             CollectionAssert.AreEqual(new int[] { 11, 15, 18, 34, 45, 67}, array);
         }
+
+        [TestMethod]
+        public void TestBogoSort()
+        {
+            int[] array = new int[] { 34, 18, 15, 45, 67, 11 };
+            BogoSort.Sort(array);
+            CollectionAssert.AreEqual(new int[] { 11, 15, 18, 34, 45, 67 }, array);
+        }
+
     }
 }
