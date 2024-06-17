@@ -25,3 +25,8 @@ Console.WriteLine(list);
 
 // Tjekker om vores liste indeholder en bestemt bruger
 Console.WriteLine(list.Contains(torill));
+list.AddLast(kell);
+Console.WriteLine(list);
+list.RemoveLast();
+Console.WriteLine(list);
+Console.WriteLine(list.AverageAge());
