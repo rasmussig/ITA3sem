@@ -183,6 +183,16 @@
             return false;
         }
 
+        //Listen er tom
+        public bool IsEmpty()
+        {
+            if (first == null)
+            {
+                return true;
+            }
+            return false;
+        }
+
         //Average age
         // public double AverageAge()
         // {
