@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Modul6_EF_NoLostData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7962ec5cdd75fe805074d3a7632d60bba8b3d1a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb7c6634202f39fdd4b5da5d2b7e38663a56b194")]
 [assembly: System.Reflection.AssemblyProductAttribute("Modul6_EF_NoLostData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Modul6_EF_NoLostData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
