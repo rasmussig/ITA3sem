@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserMailSikkerApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb7c6634202f39fdd4b5da5d2b7e38663a56b194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c06fa3abf4f6321b06a107e851baf98b9efe1fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserMailSikkerApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserMailSikkerApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

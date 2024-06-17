@@ -10,15 +10,14 @@ public class HashSetLinearProbing : HashSet {
         currentSize = 0;
     }
 
-
-    // Contains metoden tjekker om et objekt er i vores HashSet
     public bool Contains(Object x) {
-        int probe; 
+        int probe;
 
         int code = HashValue(x);
 
         if (buckets[code] == null)
         {
+            // fordi vi bruger State.deleted
             return false;
         }
 
@@ -109,8 +108,10 @@ public class HashSetLinearProbing : HashSet {
                 return true;
 
             }
+            // burde ikke kunne ske hvis tjek med Contains
             else if (buckets[probe].Equals(x))
             {
+                // pga. Set
                 return false;
             }
 
@@ -135,6 +136,8 @@ public class HashSetLinearProbing : HashSet {
         int probe;
 
         int code = HashValue(x);
+
+        // Tjek med Contains?
 
         if (buckets[code] == null)
         {
@@ -192,6 +195,47 @@ public class HashSetLinearProbing : HashSet {
 
     public int Size() {
         return currentSize;
+    }
+
+    public bool IsInCorrectPosition(Object x)
+    {
+        int code = HashValue(x);
+
+        // Check if x is at its correct hash position
+        if (buckets[code] != null && !buckets[code].Equals(State.DELETED) && buckets[code].Equals(x))
+        {
+            return true;
+        }
+
+        // If not found at the initial position, check linearly probed positions
+        int probe;
+        if (code == (buckets.Length - 1))
+        {
+            probe = 0;
+        }
+        else
+        {
+            probe = code + 1;
+        }
+
+        while (probe != code)
+        {
+            if (buckets[probe] != null && !buckets[probe].Equals(State.DELETED) && buckets[probe].Equals(x))
+            {
+                return true;
+            }
+
+            if (probe == (buckets.Length - 1))
+            {
+                probe = 0;
+            }
+            else
+            {
+                probe++;
+            }
+        }
+
+        return false;
     }
 
     private int HashValue(Object x) {
